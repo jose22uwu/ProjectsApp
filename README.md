@@ -1,32 +1,36 @@
-# DaisyPrueba
+# ProjectsApp
 
-This template should help get you started developing with Vue 3 in Vite.
+Aplicación de gestión de proyectos y tareas desarrollada con Vue 3 y TypeScript.
 
-## Recommended IDE Setup
+## Tecnologías Utilizadas
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- Vue 3
+- TypeScript
+- Vite
+- DaisyUI
+- Pinia
 
-## Type Support for `.vue` Imports in TS
+## Configuración Recomendada del IDE
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (y deshabilitar Vetur).
 
-## Customize configuration
+## Soporte de TypeScript para Importaciones `.vue`
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+TypeScript no puede manejar la información de tipos para importaciones `.vue` por defecto, por lo que reemplazamos el CLI `tsc` con `vue-tsc` para la verificación de tipos. En los editores, necesitamos [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) para que el servicio de lenguaje TypeScript sea consciente de los tipos `.vue`.
 
-## Project Setup
+## Configuración del Proyecto
 
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### Compilar y Hot-Reload para Desarrollo
 
 ```sh
 npm run dev
 ```
 
-### Type-Check, Compile and Minify for Production
+### Verificación de Tipos, Compilación y Minificación para Producción
 
 ```sh
 npm run build
